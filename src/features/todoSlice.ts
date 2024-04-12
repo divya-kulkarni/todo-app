@@ -7,7 +7,7 @@ interface Todo {
   completed: boolean;
 }
 
-interface TodoState {
+export interface TodoState {
   todos: Todo[];
 }
 
