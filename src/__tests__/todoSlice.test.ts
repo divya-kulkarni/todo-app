@@ -1,4 +1,4 @@
-import reducer, { addTodo, toggleTodo } from "../features/todoSlice";
+import reducer, { addTodo, toggleTodo } from "../features/todo/todoSlice";
 
 describe("todo reducers", () => {
   it("should handle initial state", () => {

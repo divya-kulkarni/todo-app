@@ -1,6 +1,6 @@
 import "./App.css";
 import { useDispatchApp, useAppSelector } from "./app/hooks";
-import { addTodo, toggleTodo } from "./features/todoSlice";
+import { addTodo, toggleTodo } from "./features/todo/todoSlice";
 
 type Todo = {
   id: number;
